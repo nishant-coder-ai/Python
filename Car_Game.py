@@ -1,4 +1,5 @@
 command = ""
+print("Enter help to continue....")
 started = False
 while True:
     command = input(">>>").lower()
