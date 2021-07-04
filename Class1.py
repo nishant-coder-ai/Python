@@ -1,10 +1,9 @@
 class Mobile:
-    def __int__(self, ram, processor, price, rom, company):
+    def __int__(self, ram, rom, name, mail):
         self.ram = ram
-        self.processor = processor
-        self.price = price
         self.rom = rom
-        self.company = company
+        self.name = name
+        self.mail = mail
 
 
 m1 = Mobile
